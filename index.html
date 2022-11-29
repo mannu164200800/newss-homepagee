@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+   <title>News homepage</title>
+
+</head>
+<body>
+  <section class="header-section">
+    <div class="container header flex">
+     <a href="#">
+     <img  src="assets/images/logo.svg" alt="comapny-logo">
+     </a>
+      <div class="nav-links  flex">
+       <a class="hover-link" href="#">Home</a>
+       <a class="hover-link" href="#">New</a>
+       <a class="hover-link"href="#">Popular</a>
+       <a class="hover-link" href="#">Trending</a>
+       <a class="hover-link"href="#">Categories</a>
+     </div>
+     <div class="collapse">
+      <button onclick="openNav()" class="btn">☰</button>
+     </div>
+     <div id="mySidebar" class="sidebar flex">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+   <a class="hover-link" href="#">Home</a>
+       <a class="hover-link" href="#">New</a>
+       <a class="hover-link"href="#">Popular</a>
+       <a class="hover-link" href="#">Trending</a>
+       <a class="hover-link"href="#">Categories</a>  
+  </div>
+    </div>
+  </section>
+  <section class="middle-section">
+     <div class="container middle flex">
+      <div class=" left-container flex">
+      <img class="img"  src="assets/images/image-web-3-desktop.jpg"alt="comapny-brand">
+      <div class="down-container flex">
+       <div class="down-left-container  ">
+        <h1 class="h1">The Bright<br> Future of <br> Web 3.0?</h1>
+       </div>
+      <div class="down-right-container flex">
+        <p class="p">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.But is it really fulfilling its promise?
+</p>
+       <a class="anchor" href="#">Read more </a>
+      </div>
+
+    </div>
+       
+
+         </div>
+           <div class="right-container flex">
+            <div class="whole-container flex">
+              <div class="h1-container">
+              <h1>New</h1>
+              </div>
+              <div class="h2-container">
+                <h2>Hydrogen VS Electric Cars</h2>
+              </div>
+              <div class="p-container">
+                <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+              </div>
+                <hr class="hr-container">
+            
+            </div>
+
+            <div class="whole-container flex">
+              
+              <div class="h2-container">
+                <h2>The Downsides of AI Artistry</h2>
+              </div>
+              <div class="p-container">
+                <p>What are the possible adverse effects of on-demand AI image generation?</p>
+              </div>
+              
+            <hr class="hr-container">
+            
+            </div>
+            <div class="whole-container flex">
+              <div class="h2-container">
+                <h2>Is VC Funding Drying Up?</h2>
+              </div>
+              <div class="p-container">
+                <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.
+</p>
+              </div>
+              </div>
+            </div>
+       </div>
+      </div>
+      
+      
+        
+    </div>
+
+  </section>
+  <section class="bottom-section">
+     <div class="container bottom flex">
+      <div class="cardo flex">
+        <div class="card-right-container">
+          <img class="image" src="assets/images/image-retro-pcs.jpg">
+        </div>
+        <div class="card-left-container flex">
+         <h1 class="h1s">01</h1>
+         <div class="h3-cont">
+          <h3>Reviving Retro PCs</h3>
+         </div>
+         <div class="p-cont">
+         <p class="text">What happens when old PCs are given modern upgrades?</p>
+         </div>
+        </div>
+
+      </div>
+        <div class="cardo flex">
+        <div class="card-right-container">
+          <img class="image" src="assets/images/image-top-laptops.jpg">
+        </div>
+        <div class="card-left-container flex">
+         <h1 class="h1s">02</h1>
+         <div class="h3-cont">
+          <h3>Top 10 Laptops of 2022</h3>
+         </div>
+         <div class="p-cont">
+         <p class="text">Our best picks for various needs and budgets.</p>
+         </div>
+        </div>
+
+      </div>
+         <div class="cardo flex">
+        <div class="card-right-container">
+          <img class="image" src="assets/images/image-gaming-growth.jpg">
+        </div>
+        <div class="card-left-container flex">
+         <h1 class="h1s">03</h1>
+         <div class="h3-cont">
+          <h3>The Growth of Gaming</h3>
+         </div>
+         <div class="p-cont">
+         <p class="text">How the pandemic has sparked fresh opportunities.
+</p>
+         </div>
+        </div>
+
+      </div>
+    </div>
+      
+
+  </section>
+
+      <script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "350px";
+  
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+}
+</script>
+</body>
+</html>
